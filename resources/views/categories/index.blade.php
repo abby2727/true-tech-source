@@ -31,7 +31,7 @@
                             <tbody>
                                 @foreach ($categories as $category)
                                     <tr>
-                                        <td>{{ $category->name }}</td>
+                                        <td><h1>{{ $category->name }}</h1></td>
                                         <td>
                                             <a href="{{ route('categories.edit', $category) }}"
                                                 class="btn btn-primary">Edit</a>
